@@ -30,6 +30,6 @@
 - [Real-Time Object Detection on COCO - **Inference Time**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=inference%20time%2C%20ms) - YOLOv4-CSP-P6
 
 # Tests and comparisons of models
-[![**Yolo_v5 vs YoloX**](https://img.youtube.com/vi/V6wIxnfOJCs/0.jpg)](https://www.youtube.com/watch?v=V6wIxnfOJCs)
 [![**YoloR vs YoloX**](https://img.youtube.com/vi/Qm3GTj2I_Kk/0.jpg)](https://www.youtube.com/watch?v=Qm3GTj2I_Kk)
+[![**Yolo_v5 vs YoloX**](https://img.youtube.com/vi/V6wIxnfOJCs/0.jpg)](https://www.youtube.com/watch?v=V6wIxnfOJCs)
 
