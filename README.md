@@ -21,8 +21,9 @@
 - **Yolo Z** (2021) Aduen Benjumea et al. [‘YOLO-Z: Improving small object detection in YOLOv5 for autonomous vehicles’](https://arxiv.org/abs/2112.11798v2)
 - [**Yolo-ReT**](https://github.com/guotao0628/yoloret) (2021) Prakhar Ganesh et al. [‘YOLO-ReT: Towards High Accuracy Real-time Object Detection on Edge GPUs’](https://arxiv.org/abs/2110.13713)
 - [**Scaled-Yolo v4**](https://github.com/WongKinYiu/ScaledYOLOv4) (2021) Chien-Yao Wang et al. ['Scaled-YOLOv4: Scaling Cross Stage Partial Network'](https://arxiv.org/abs/2011.08036)
+- [**YoloX**](https://github.com/Megvii-BaseDetection/YOLOX) (2021) Zheng Ge at all. [‘YOLOX: Exceeding YOLO Series in 2021’](https://arxiv.org/abs/2107.08430). Good for edge devices. YOLOX-Tiny and YOLOX-Nano outperform YOLOv4-Tiny and NanoDet offering a boost of 10.1% and 1.8% respectively
 - [**YoloR**](https://github.com/WongKinYiu/yolor) (You Only Learn One) (2021) Chien-Yao Wang et al. [‘You Only Learn One Representation: Unified Network for Multiple Tasks’](https://arxiv.org/abs/2105.04206)
-- [**YoloX**](https://github.com/Megvii-BaseDetection/YOLOX) (2021) Zheng Ge at all. [‘YOLOX: Exceeding YOLO Series in 2021’](https://arxiv.org/abs/2107.08430). Good for edge devices. YOLOX-Tiny and YOLOX-Nano outperform YOLOv4-Tiny and NanoDet offering a boost of 10.1% and 1.8% respectively.
+- [**YoloP**](https://github.com/hustvl/YOLOP) (2022-v7) Dong Wu at all. [‘YOLOP: You Only Look Once for Panoptic Driving Perception’](https://arxiv.org/abs/2108.11250). YoloP was designed to perform three visual perception tasks: traffic object detection, drivable area segmentation and lane detection simultaneously in real-time on an embedded device (Jetson TX2, 23 FPS). It is based on one encoder for feature extraction and three decoders to handle the specific tasks
 
 # Object Detection DNN Algorithms Benchmark
 
@@ -33,5 +34,5 @@
 # Tests and comparisons of models
 [![**YoloR vs YoloX**](https://img.youtube.com/vi/Qm3GTj2I_Kk/0.jpg)](https://www.youtube.com/watch?v=Qm3GTj2I_Kk)
 [![**Yolo_v5 vs YoloX**](https://img.youtube.com/vi/V6wIxnfOJCs/0.jpg)](https://www.youtube.com/watch?v=V6wIxnfOJCs)
-[![**YoloX**](https://img.youtube.com/vi/m7yRGpjiatM/0.jpg)](https://www.youtube.com/watch?v=m7yRGpjiatM)]
+[![**YoloX**](https://img.youtube.com/vi/m7yRGpjiatM/0.jpg)](https://www.youtube.com/watch?v=m7yRGpjiatM)
 
