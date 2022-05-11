@@ -5,7 +5,7 @@
 
 **Most of the DNN object detection algorithm can:**
 - classifies object
-- localize object (the coordinates of the bounding box enclosing the object)
+- localize object (find the coordinates of the bounding box enclosing the object)
 
 **Features thats counts for the modern Object Detection Algorithms are following:**
 - Accuracy (AP - Average Precission)
