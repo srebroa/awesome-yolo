@@ -1,11 +1,11 @@
 # awesome-yolo :octocat:
 
 
-# Object Detection DNN Algorithms 2021
+# Object Detection DNN Algorithms
 
 **Most of the DNN object detection algorithm can:**
 - classifies object
-- localize object
+- localize object (the coordinates of the bounding box enclosing the object)
 
 **Features thats counts for the modern Object Detection Algorithms are following:**
 - Accuracy (AP - Average Precission)
