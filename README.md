@@ -36,3 +36,6 @@
 [![**Yolo_v5 vs YoloX**](https://img.youtube.com/vi/V6wIxnfOJCs/0.jpg)](https://www.youtube.com/watch?v=V6wIxnfOJCs)
 [![**YoloX**](https://img.youtube.com/vi/m7yRGpjiatM/0.jpg)](https://www.youtube.com/watch?v=m7yRGpjiatM)
 
+# Practical application examples
+[![**Counting Tree Logs by Size**](https://img.youtube.com/vi/AocLsvLPAqk/0.jpg)](https://www.youtube.com/watch?v=AocLsvLPAqk)
+[![**Pipe Counting**](https://img.youtube.com/vi/4ONcSj6-S8k/0.jpg)](https://www.youtube.com/watch?v=4ONcSj6-S8k)
