@@ -1,4 +1,4 @@
-# awesome-yolo :octocat:
+# awesome-yolo :rocket: :star:
 
 
 # Object Detection DNN Algorithms
@@ -23,7 +23,10 @@
 - [**Scaled-Yolo v4**](https://github.com/WongKinYiu/ScaledYOLOv4) (2021) Chien-Yao Wang et al. ['Scaled-YOLOv4: Scaling Cross Stage Partial Network'](https://arxiv.org/abs/2011.08036)
 - [**YoloX**](https://github.com/Megvii-BaseDetection/YOLOX) (2021) Zheng Ge at all. [‘YOLOX: Exceeding YOLO Series in 2021’](https://arxiv.org/abs/2107.08430). Good for edge devices. YOLOX-Tiny and YOLOX-Nano outperform YOLOv4-Tiny and NanoDet offering a boost of 10.1% and 1.8% respectively
 - [**YoloR**](https://github.com/WongKinYiu/yolor) (You Only Learn One) (2021) Chien-Yao Wang et al. [‘You Only Learn One Representation: Unified Network for Multiple Tasks’](https://arxiv.org/abs/2105.04206)
+- [**YoloS**](https://github.com/hustvl/YOLOShttps://github.com/hustvl/YOLOS) (2021) Yuxin Fang at all. ['You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection'](https://arxiv.org/abs/2106.00666v3)
+- [**YoloF**](https://github.com/megvii-model/YOLOF) (2021) Qiang Chen at all. ['You Only Look One-level Feature'](https://arxiv.org/abs/2103.09460) 
 - [**YoloP**](https://github.com/hustvl/YOLOP) (2022-v7) Dong Wu at all. [‘YOLOP: You Only Look Once for Panoptic Driving Perception’](https://arxiv.org/abs/2108.11250). YoloP was designed to perform three visual perception tasks: traffic object detection, drivable area segmentation and lane detection simultaneously in real-time on an embedded device (Jetson TX2, 23 FPS). It is based on one encoder for feature extraction and three decoders to handle the specific tasks
+- [**Yolov7**](https://github.com/jinfagang/yolov7) (2022) A simple and standard training framework with Transformers for any detection && instance segmentation tasks, based on detectron2
 
 # Object Detection DNN Algorithms Benchmark
 
