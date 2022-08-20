@@ -26,15 +26,17 @@
 - [**YoloS**](https://github.com/hustvl/YOLOShttps://github.com/hustvl/YOLOS) (2021) Yuxin Fang at all. ['You Only Look at One Sequence: Rethinking Transformer in Vision through Object Detection'](https://arxiv.org/abs/2106.00666v3)
 - [**YoloF**](https://github.com/megvii-model/YOLOF) (2021) Qiang Chen at all. ['You Only Look One-level Feature'](https://arxiv.org/abs/2103.09460) 
 - [**YoloP**](https://github.com/hustvl/YOLOP) (2022-v7) Dong Wu at all. [‘YOLOP: You Only Look Once for Panoptic Driving Perception’](https://arxiv.org/abs/2108.11250). YoloP was designed to perform three visual perception tasks: traffic object detection, drivable area segmentation and lane detection simultaneously in real-time on an embedded device (Jetson TX2, 23 FPS). It is based on one encoder for feature extraction and three decoders to handle the specific tasks
-- [**Yolov7**](https://github.com/jinfagang/yolov7) (2022) A simple and standard training framework with Transformers for any detection && instance segmentation tasks, based on detectron2
+- [**Yolov6**](https://github.com/meituan/YOLOv6) (2022) Hardware-friendly design for backbone and neck, efficient Decoupled Head with SIoU Loss,
+- [**Yolov7 not official**](https://github.com/jinfagang/yolov7) (2022) A simple and standard training framework with Transformers for any detection && instance segmentation tasks, based on detectron2,
+- [**Yolov7 official**](https://github.com/WongKinYiu/yolov77) (2022) Chien-Yao Wang at all. ['Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors'](https://arxiv.org/abs/2207.02696) YOLOv7 currently outperforms all known real-time object detectors with 30 FPS or higher on GPU V100. YOLOv7-E6 object detector (56 FPS V100, 55.9% AP)
 
 # Object Detection DNN Algorithms Benchmark
 
-- [Real-Time Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/real-time-object-detection-on-coco) - YOLOR‑D6
-- [Real-Time Object Detection on COCO - **Speed FPS**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=FPS) - YOLOv4-CSP CD53s 640
-- [Real-Time Object Detection on COCO - **Inference Time**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=inference%20time%2C%20ms) - YOLOv4-CSP-P6
+- [Real-Time Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/real-time-object-detection-on-coco) - YOLOv7-E6E
+- [Real-Time Object Detection on COCO - **Speed FPS**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=FPS%20(V100%2C%20b%3D1)) - YOLOv7-tiny-SiLU
 
 # Tests and comparisons of models
+[![**YoloR vs YoloX**](https://www.youtube.com/watch?v=2NRuwKj2HL8/0.jpg)](https://www.youtube.com/watch?v=2NRuwKj2HL8)
 [![**YoloR vs YoloX**](https://img.youtube.com/vi/Qm3GTj2I_Kk/0.jpg)](https://www.youtube.com/watch?v=Qm3GTj2I_Kk)
 [![**Yolo_v5 vs YoloX**](https://img.youtube.com/vi/V6wIxnfOJCs/0.jpg)](https://www.youtube.com/watch?v=V6wIxnfOJCs)
 [![**YoloX**](https://img.youtube.com/vi/m7yRGpjiatM/0.jpg)](https://www.youtube.com/watch?v=m7yRGpjiatM)
