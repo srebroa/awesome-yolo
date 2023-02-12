@@ -37,6 +37,7 @@
 - [Real-Time Object Detection on COCO - **Speed FPS**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=FPS%20(V100%2C%20b%3D1)) - YOLOv7-tiny-SiLU
 
 # Tests and comparisons of models
+[![**Yolo v8**](https://img.youtube.com/vi/5jEuWE1Z5Po/0.jpg)](https://www.youtube.com/watch?v=5jEuWE1Z5Po)
 [![**Yolo v7**](https://img.youtube.com/vi/2NRuwKj2HL8/0.jpg)](https://www.youtube.com/watch?v=2NRuwKj2HL8)
 [![**YoloR vs YoloX**](https://img.youtube.com/vi/Qm3GTj2I_Kk/0.jpg)](https://www.youtube.com/watch?v=Qm3GTj2I_Kk)
 [![**Yolo_v5 vs YoloX**](https://img.youtube.com/vi/V6wIxnfOJCs/0.jpg)](https://www.youtube.com/watch?v=V6wIxnfOJCs)
