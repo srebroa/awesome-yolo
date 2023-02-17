@@ -29,6 +29,7 @@
 - [**Yolov6**](https://github.com/meituan/YOLOv6) (2022) Hardware-friendly design for backbone and neck, efficient Decoupled Head with SIoU Loss,
 - [**Yolov7 not official**](https://github.com/jinfagang/yolov7) (2022) A simple and standard training framework with Transformers for any detection && instance segmentation tasks, based on detectron2,
 - [**Yolov7 official**](https://github.com/WongKinYiu/yolov77) (2022) Chien-Yao Wang at all. ['Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors'](https://arxiv.org/abs/2207.02696) YOLOv7 currently outperforms all known real-time object detectors with 30 FPS or higher on GPU V100. YOLOv7-E6 object detector (56 FPS V100, 55.9% AP),
+- [**EdgeYOLO**](https://github.com/LSH9832/edgeyolo) (2023) Shihan Liu at all. ['EdgeYOLO: An Edge-Real-Time Object Detector'](https://arxiv.org/abs/2302.07483) EdgeYOLO model accuracy of 50.6% AP50:95 and 69.8% AP50 in MS COCO2017 dataset, 26.4% AP50:95 and 44.8% AP50 in VisDrone2019-DET dataset, FPS>=30 on edge-computing device Nvidia Jetson AGX Xavier.
 - [**Yolov8**](https://github.com/ultralytics/ultralytics) (2023) developed by Ultralytics
 
 # Object Detection DNN Algorithms Benchmark
