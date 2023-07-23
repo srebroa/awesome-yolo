@@ -39,6 +39,7 @@
 - [Real-Time Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/real-time-object-detection-on-coco) - YOLOv6-L6
 - [Real-Time Object Detection on COCO - **Speed FPS**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=FPS%20(V100%2C%20b%3D1)) - 	
 DAMO-YOLO-T
+- [Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/object-detection-on-coco) - Co-DETR
 
 # Tests and comparisons of models
 [![**Yolo v6 vs Yolo v8**](https://img.youtube.com/vi/hG6kQHeMyz0/0.jpg)](https://youtu.be/hG6kQHeMyz0)
