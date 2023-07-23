@@ -7,30 +7,6 @@
 - classifies object
 - localize object (find the coordinates of the bounding box enclosing the object)
 
-**Parameters thats counts for the modern Object Detection Algorithms are following:**
-- **Accuracy (A)** = (Number of Correct Predictions) / (Total Number of Predictions)
-   - Accuracy measures the overall correctness of the algorithm's predictions.
-- **Precision (P)** = (True Positives) / (True Positives + False Positives)
-   -  It quantifies the algorithm's ability not to label false positives. It measures the fraction of correctly predicted positive instances among all predicted positive instances.
-- **Recall (R)** = (True Positives) / (True Positives + False Negatives)
-   - It quantifies the algorithm's ability to find all positive instances.
-- **F1 Score (F1)** = 2 * (Precision * Recall) / (Precision + Recall)
-   - F1 score providing a balanced measure of the algorithm's performance, it is the harmonic mean of precision and recall.
-- **Mean Average Precision (mAP)** = (AP_1 + AP_2 + AP_3 + ... + AP_n) / n
-  - AP_1, AP_2, ..., AP_n are the Average Precision values for each class
-  - n is the total number of classes
-- **Intersection over Union (IoU)** = (Area of Intersection) / (Area of Union)
-  -  It is used to determine the accuracy of localization, it measures the overlap between predicted bounding boxes and ground truth bounding boxes
-- **Inference Time** - time taken to make predictions on a single input image
-  - It measures the time it takes for the algorithm to process the input and produce the output (bounding boxes, class predictions) without considering any external factors. 
-- **Processing Speed (FPS)** - time taken by the algorithm to process a given dataset or a single image.
-  - Often represented as FPS - Frames Per Second, number of frames (or images) that the algorithm can process per second
-  - It takes into account factors such as data loading, pre-processing, and post-processing steps in addition to the inference time.
-- **Number of Parameters**
-  - The number of model parameters indicates the model's complexity and memory requirements.
-- **Memory Usage**
-  - It measures the amount of memory consumed by the algorithm during inference. 
-
 # YOLO - You Only Looks Once
 - **Yolo v1** (2016) Joseph Redmon [‘You Only Look Once: Unified, Real-Time Object Detection’](https://arxiv.org/abs/1506.02640)
 - [**Yolo v2**](https://github.com/longcw/yolo2-pytorch) (2017) Joseph Redmon [‘YOLO9000: Better, Faster, Stronger’](https://arxiv.org/abs/1612.08242)
@@ -60,6 +36,30 @@
 - [Real-Time Object Detection on COCO - **Speed FPS**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=FPS%20(V100%2C%20b%3D1)) - 	
 DAMO-YOLO-T
 - [Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/object-detection-on-coco) - Co-DETR
+
+# Key parameters of object detection algorithms
+- **Accuracy (A)** = (Number of Correct Predictions) / (Total Number of Predictions)
+   - Accuracy measures the overall correctness of the algorithm's predictions.
+- **Precision (P)** = (True Positives) / (True Positives + False Positives)
+   -  It quantifies the algorithm's ability not to label false positives. It measures the fraction of correctly predicted positive instances among all predicted positive instances.
+- **Recall (R)** = (True Positives) / (True Positives + False Negatives)
+   - It quantifies the algorithm's ability to find all positive instances.
+- **F1 Score (F1)** = 2 * (Precision * Recall) / (Precision + Recall)
+   - F1 score providing a balanced measure of the algorithm's performance, it is the harmonic mean of precision and recall.
+- **Mean Average Precision (mAP)** = (AP_1 + AP_2 + AP_3 + ... + AP_n) / n
+  - AP_1, AP_2, ..., AP_n are the Average Precision values for each class
+  - n is the total number of classes
+- **Intersection over Union (IoU)** = (Area of Intersection) / (Area of Union)
+  -  It is used to determine the accuracy of localization, it measures the overlap between predicted bounding boxes and ground truth bounding boxes
+- **Inference Time** - time taken to make predictions on a single input image
+  - It measures the time it takes for the algorithm to process the input and produce the output (bounding boxes, class predictions) without considering any external factors. 
+- **Processing Speed (FPS)** - time taken by the algorithm to process a given dataset or a single image.
+  - Often represented as FPS - Frames Per Second, number of frames (or images) that the algorithm can process per second
+  - It takes into account factors such as data loading, pre-processing, and post-processing steps in addition to the inference time.
+- **Number of Parameters**
+  - The number of model parameters indicates the model's complexity and memory requirements.
+- **Memory Usage**
+  - It measures the amount of memory consumed by the algorithm during inference. 
 
 # Tests and comparisons of models
 [![**Yolo v6 vs Yolo v8**](https://img.youtube.com/vi/hG6kQHeMyz0/0.jpg)](https://youtu.be/hG6kQHeMyz0)
