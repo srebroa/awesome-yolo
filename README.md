@@ -77,6 +77,6 @@ DAMO-YOLO-T
 [![**YoloX**](https://img.youtube.com/vi/m7yRGpjiatM/0.jpg)](https://www.youtube.com/watch?v=m7yRGpjiatM)
 
 # Practical application examples
-[![**Detecting pumpkins from drone video**](https://img.youtube.com/vi/cB6HZMG2MCs/0.jpg)]([https://www.youtube.com/watch?v=AocLsvLPAqk](https://www.youtube.com/watch?v=cB6HZMG2MCs))
+[![**Detecting pumpkins from drone video**](https://img.youtube.com/vi/cB6HZMG2MCs/0.jpg)](https://www.youtube.com/watch?v=cB6HZMG2MCs)
 [![**Counting Tree Logs by Size**](https://img.youtube.com/vi/AocLsvLPAqk/0.jpg)](https://www.youtube.com/watch?v=AocLsvLPAqk)
 [![**Pipe Counting**](https://img.youtube.com/vi/4ONcSj6-S8k/0.jpg)](https://www.youtube.com/watch?v=4ONcSj6-S8k)
