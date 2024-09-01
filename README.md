@@ -70,6 +70,7 @@ YOLOv6-N
   - It measures the amount of memory consumed by the algorithm during inference. 
 
 # Tests and comparisons of models
+[![**Yolo v10**](https://img.youtube.com/vi/jvFp0Qt9akg/0.jpg)](https://youtu.be/jvFp0Qt9akg)
 [![**Yolo v6 vs Yolo v8**](https://img.youtube.com/vi/hG6kQHeMyz0/0.jpg)](https://youtu.be/hG6kQHeMyz0)
 [![**Yolo v8**](https://img.youtube.com/vi/5jEuWE1Z5Po/0.jpg)](https://www.youtube.com/watch?v=5jEuWE1Z5Po)
 [![**Yolo v7**](https://img.youtube.com/vi/2NRuwKj2HL8/0.jpg)](https://www.youtube.com/watch?v=2NRuwKj2HL8)
