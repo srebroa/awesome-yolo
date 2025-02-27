@@ -37,7 +37,7 @@
 - [**Yolov12**](https://github.com/sunsmarterjie/yolov12) (2025)  Yunjie Tian at all. ['YOLOv12: Attention-Centric Real-Time Object Detectors'](https://arxiv.org/abs/2502.12524) YOLOv12-N achieves 40.6% mAP with an inference latency of 1.64 ms on a T4 GPU, outperforming advanced YOLOv10-N / YOLOv11-N by 2.1%/1.2% mAP with a comparable speed.
 # Object Detection DNN Algorithms Benchmark
 
-- [Real-Time Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/real-time-object-detection-on-coco) - YOLOv6-L6
+- [Real-Time Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/real-time-object-detection-on-coco) - DEIM-D-FINE-X+
 - [Real-Time Object Detection on COCO - **Speed FPS**](https://paperswithcode.com/sota/real-time-object-detection-on-coco?metric=FPS%20(V100%2C%20b%3D1)) - 	
 YOLOv6-N
 - [Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/object-detection-on-coco) - Co-DETR
