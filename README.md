@@ -34,6 +34,7 @@
 - [**Yolov9**](https://github.com/WongKinYiu/yolov9) (2024) Chien-Yao Wang at all. ['YOLOv9: Learning What You Want to Learn Using Programmable Gradient Information'](https://arxiv.org/abs/2402.13616)
 - [**Yolov10**](https://github.com/THU-MIG/yolov1) (2024) Ao Wang at all. [YOLOv10: Real-Time End-to-End Object Detection](https://arxiv.org/abs/2405.14458) Yolov10 architecture is similar to YOLOv6 3.0, with an added transformer-based module for better global feature extraction.
 - [**Yolo11**](https://github.com/ultralytics/ultralytics) (2024) developed by Ultralytics, YOLO11m achieves a higher mean Average Precision (mAP) on the COCO dataset while using 22% fewer parameters than YOLOv8m.
+- [**Yolov12**](https://github.com/sunsmarterjie/yolov12) (2025)  Yunjie Tian at all. ['YOLOv12: Attention-Centric Real-Time Object Detectors'](https://arxiv.org/abs/2502.12524) YOLOv12-N achieves 40.6% mAP with an inference latency of 1.64 ms on a T4 GPU, outperforming advanced YOLOv10-N / YOLOv11-N by 2.1%/1.2% mAP with a comparable speed.
 # Object Detection DNN Algorithms Benchmark
 
 - [Real-Time Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/real-time-object-detection-on-coco) - YOLOv6-L6
