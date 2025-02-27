@@ -42,6 +42,22 @@
 YOLOv6-N
 - [Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/object-detection-on-coco) - Co-DETR
 
+# Comparison of Small Models
+| No. | Name        | Year | Parameters (M) | FLOPs (G) | Speed V100 b1 (FPS) | mAP 50-95 COCO (%) | License   |
+|-----|-------------|------|----------------|-----------|---------------------|--------------------|-----------|
+| 1   | YOLOv5n     | 2020 | 1.9            | 4.5       | 159                 | 28.0               | AGPL-3.0  |
+| 2   | YOLOX-Nano  | 2021 | 0.91           | 1.08      | -                   | 25.8               | <mark>Apache 2.0</mark> |
+| 3   | YOLOv6-N    | 2022 | 4.7            | 11.4      | 779 (trt fp16)      | 37.5               | GPL-3.0   |
+| 4   | YOLOv7-Tiny | 2022 | 6.2            | 13.8      | 286                 | 38.7               | GPL-3.0   |
+| 5   | EdgeYOLO-Tiny| 2023 | 5.8           | -         | 136/67 (AGX Xavier) | 41.4               | <mark>Apache 2.0</mark> |
+| 6   | YOLOv10-N   | 2024 | 2.3            | 6.7       | 543                 | 38.5               | AGPL-3.0  |
+| 7   | YOLO11-N    | 2024 | 2.6            | 6.5       | 667                 | 39.5               | AGPL-3.0  |
+| 8   | YOLOv12-N   | 2025 | 2.6            | 6.5       | 610                 | 40.6               | AGPL-3.0  |
+
+
+
+
+
 # Key parameters of object detection algorithms
 - **Accuracy (A)** = (Number of Correct Predictions) / (Total Number of Predictions)
    - Accuracy measures the overall correctness of the algorithm's predictions.
