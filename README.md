@@ -54,38 +54,66 @@ YOLOv6-N
 | 7   | YOLO11-N    | 2024 | 2.6            | 6.5       | 667                 | 39.5               | AGPL-3.0  |
 | 8   | YOLOv12-N   | 2025 | 2.6            | 6.5       | 610                 | 40.6               | AGPL-3.0  |
 
+ 
+## Performance Metrics
+
+### Accuracy (A)  
+**A** = (Number of Correct Predictions) / (Total Number of Predictions)  
+
+Accuracy measures the overall correctness of the algorithm's predictions.
+
+### Precision (P)  
+**P** = (True Positives) / (True Positives + False Positives)  
+
+It quantifies the algorithm's ability not to label false positives. It measures the fraction of correctly predicted positive instances among all predicted positive instances.
+
+### Recall (R)
+**R** = (True Positives) / (True Positives + False Negatives)  
+
+It quantifies the algorithm's ability to find all positive instances.
+
+### F1 Score (F1)
+**F1** = 2 × (Precision × Recall) / (Precision + Recall)  
+
+The F1 score provides a balanced measure of the algorithm's performance, as it is the harmonic mean of precision and recall.
+
+### Average Precision (AP)
+**AP** = ∑(P<sub>i</sub> × ΔR<sub>i</sub>)  
+
+- **P<sub>i</sub>** is the precision value at the *i*-th recall point.  
+- **ΔR<sub>i</sub>** is the change in recall from the *i*-th to the (*i*+1)-th recall point.  
+
+AP summarizes the performance of an algorithm across different confidence thresholds. It quantifies the precision-recall trade-off for a given class.
+
+### Mean Average Precision (mAP)
+**mAP** = (AP<sub>1</sub> + AP<sub>2</sub> + ... + AP<sub>n</sub>) / *n*  
+
+- **AP<sub>1</sub>, AP<sub>2</sub>, ..., AP<sub>n</sub>** are the Average Precision values for each class.  
+- *n* is the total number of classes.
+
+### Intersection over Union (IoU)
+**IoU** = (Area of Intersection) / (Area of Union)  
+
+It is used to determine the accuracy of localization, measuring the overlap between predicted bounding boxes and ground truth bounding boxes.
+
+### Inference Time
+Time taken to make predictions on a single input image. It measures the time it takes for the algorithm to process the input and produce the output (bounding boxes, class predictions) without considering any external factors.
+
+### Processing Speed (FPS)
+Time taken by the algorithm to process a given dataset or a single image.  
+
+Often represented as **FPS** (Frames Per Second), which indicates the number of frames (or images) that the algorithm can process per second.  
+
+It takes into account factors such as data loading, pre-processing, and post-processing steps in addition to the inference time.
+
+### Number of Parameters
+The number of model parameters indicates the model's complexity and memory requirements.
+
+### Memory Usage
+It measures the amount of memory consumed by the algorithm during inference.
 
 
 
-
-# Key parameters of object detection algorithms
-- **Accuracy (A)** = (Number of Correct Predictions) / (Total Number of Predictions)
-   - Accuracy measures the overall correctness of the algorithm's predictions.
-- **Precision (P)** = (True Positives) / (True Positives + False Positives)
-   -  It quantifies the algorithm's ability not to label false positives. It measures the fraction of correctly predicted positive instances among all predicted positive instances.
-- **Recall (R)** = (True Positives) / (True Positives + False Negatives)
-   - It quantifies the algorithm's ability to find all positive instances.
-- **F1 Score (F1)** = 2 * (Precision * Recall) / (Precision + Recall)
-   - F1 score providing a balanced measure of the algorithm's performance, it is the harmonic mean of precision and recall.
-- **Average Precision (AP)** = ∑(P_i) * ΔR_i
-  - P_i is the precision value at the i-th recall point.
-  - ΔR_i is the change in recall from the i-th to the (i+1)-th recall point
-  - AP summarizes the performance of an algorithm across different confidence thresholds
-  - It quantifies the precision-recall trade-off for a given class
-- **Mean Average Precision (mAP)** = (AP_1 + AP_2 + AP_3 + ... + AP_n) / n
-  - AP_1, AP_2, ..., AP_n are the Average Precision values for each class
-  - n is the total number of classes
-- **Intersection over Union (IoU)** = (Area of Intersection) / (Area of Union)
-  -  It is used to determine the accuracy of localization, it measures the overlap between predicted bounding boxes and ground truth bounding boxes
-- **Inference Time** - time taken to make predictions on a single input image
-  - It measures the time it takes for the algorithm to process the input and produce the output (bounding boxes, class predictions) without considering any external factors. 
-- **Processing Speed (FPS)** - time taken by the algorithm to process a given dataset or a single image.
-  - Often represented as FPS - Frames Per Second, number of frames (or images) that the algorithm can process per second
-  - It takes into account factors such as data loading, pre-processing, and post-processing steps in addition to the inference time.
-- **Number of Parameters**
-  - The number of model parameters indicates the model's complexity and memory requirements.
-- **Memory Usage**
-  - It measures the amount of memory consumed by the algorithm during inference. 
 
 # Tests and comparisons of models
 [![**Yolo v10**](https://img.youtube.com/vi/jvFp0Qt9akg/0.jpg)](https://youtu.be/jvFp0Qt9akg)
