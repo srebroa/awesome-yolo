@@ -128,3 +128,5 @@ It measures the amount of memory consumed by the algorithm during inference.
 [![**Detecting pumpkins from drone video**](https://img.youtube.com/vi/cB6HZMG2MCs/0.jpg)](https://www.youtube.com/watch?v=cB6HZMG2MCs)
 [![**Counting Tree Logs by Size**](https://img.youtube.com/vi/AocLsvLPAqk/0.jpg)](https://www.youtube.com/watch?v=AocLsvLPAqk)
 [![**Pipe Counting**](https://img.youtube.com/vi/4ONcSj6-S8k/0.jpg)](https://www.youtube.com/watch?v=4ONcSj6-S8k)
+
+If you need support with your AI project or if you're simply AI and new technology enthusiast, don't hesitate to connect with me on [LinkedIn](https://www.linkedin.com/in/adam-srebro-phd-90a3504b) 👍
