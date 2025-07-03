@@ -35,6 +35,7 @@
 - [**Yolov10**](https://github.com/THU-MIG/yolov10) (2024) Ao Wang at all. [YOLOv10: Real-Time End-to-End Object Detection](https://arxiv.org/abs/2405.14458) Yolov10 architecture is similar to YOLOv6 3.0, with an added transformer-based module for better global feature extraction.
 - [**Yolo11**](https://github.com/ultralytics/ultralytics) (2024) developed by Ultralytics, YOLO11m achieves a higher mean Average Precision (mAP) on the COCO dataset while using 22% fewer parameters than YOLOv8m.
 - [**Yolov12**](https://github.com/sunsmarterjie/yolov12) (2025)  Yunjie Tian at all. ['YOLOv12: Attention-Centric Real-Time Object Detectors'](https://arxiv.org/abs/2502.12524) YOLOv12-N achieves 40.6% mAP with an inference latency of 1.64 ms on a T4 GPU, outperforming advanced YOLOv10-N / YOLOv11-N by 2.1%/1.2% mAP with a comparable speed.
+- [**Yolov13**](https://github.com/iMoonLab/yolov13) (2025) Mengqi Lei at all. [YOLOv13: Real-Time Object Detection with Hypergraph-Enhanced Adaptive Visual Perception](https://arxiv.org/abs/2506.17733) Introduce Hypergraph-based Adaptive Correlation Enhancement (HyperACE) mechanism that adaptively exploits latent high-order correlations and overcomes the limitation of previous methods that are restricted to pairwise correlation modeling based on hypergraph computation, YOLOv13-N improves mAP by 1.5% with fewer parameters and FLOPs over YOLOv12-N.
 # Object Detection DNN Algorithms Benchmark
 
 - [Real-Time Object Detection on COCO - **Mean Average Precission (MAP)**](https://paperswithcode.com/sota/real-time-object-detection-on-coco) - DEIM-D-FINE-X+
@@ -47,12 +48,14 @@ YOLOv6-N
 |-----|-------------|------|----------------|-----------|---------------------|--------------------|-----------|
 | 1   | YOLOv5n     | 2020 | 1.9            | 4.5       | 159                 | 28.0               | AGPL-3.0  |
 | 2   | YOLOX-Nano  | 2021 | 0.91           | 1.08      | -                   | 25.8               | <mark>Apache 2.0</mark> |
-| 3   | YOLOv6-N    | 2022 | 4.7            | 11.4      | 779 (trt fp16)      | 37.5               | GPL-3.0   |
+| 3   | YOLOv6-N    | 2022 | 4.7            | 11.4      | 365                 | 37.5               | GPL-3.0   |
 | 4   | YOLOv7-Tiny | 2022 | 6.2            | 13.8      | 286                 | 38.7               | GPL-3.0   |
-| 5   | EdgeYOLO-Tiny| 2023 | 5.8           | -         | 136/67 (AGX Xavier) | 41.4               | <mark>Apache 2.0</mark> |
-| 6   | YOLOv10-N   | 2024 | 2.3            | 6.7       | 543                 | 38.5               | AGPL-3.0  |
-| 7   | YOLO11-N    | 2024 | 2.6            | 6.5       | 667                 | 39.5               | AGPL-3.0  |
-| 8   | YOLOv12-N   | 2025 | 2.6            | 6.5       | 610                 | 40.6               | AGPL-3.0  |
+| 5   | YOLOv8-N    | 2023 | 3.2            | 8.7       | 565                 | 37.4               | AGPL-3.0   |
+| 6   | EdgeYOLO-Tiny| 2023 | 5.8           | -         | 136/67 (AGX Xavier) | 41.4               | <mark>Apache 2.0</mark> |
+| 7   | YOLOv10-N   | 2024 | 2.3            | 6.7       | 543                 | 38.5               | AGPL-3.0  |
+| 8   | YOLO11-N    | 2024 | 2.6            | 6.5       | 654                 | 38.6               | AGPL-3.0  |
+| 9   | YOLOv12-N   | 2025 | 2.6            | 6.5       | 546                 | 40.1               | AGPL-3.0  |
+| 10  | YOLOv12-N   | 2025 | 2.5            | 6.4       | 508                 | 41.6               | AGPL-3.0  |
 
  
 ## Performance Metrics
